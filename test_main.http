@@ -1,0 +1,27 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/Data/Read/
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/Data/Create/
+Accept: application/json
+
+###
+
+PUT http://127.0.0.1:8000/Data/Update/{stu_id:str , lec_id:str , cors_id:str , cr_id:str , pc_id:str}
+Accept: application/json
+
+###
+
+DELETE http://127.0.0.1:8000/Data/Delete/{stu_id:str , lec_id:str , cors_id:str , cr_id:str , pc_id:str}
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/Items/Details/hello/
+Accept: application/json
+
+###
+
