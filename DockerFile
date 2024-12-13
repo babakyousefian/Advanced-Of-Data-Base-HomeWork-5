@@ -1,0 +1,5 @@
+FROM postgres:14.5
+COPY src/postgres /usr/share/postgres/
+
+FROM mongosh:8.0.3-alpine
+COPY src/mongodb /usr/share/mongodb/
